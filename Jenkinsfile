@@ -6,7 +6,7 @@ pipeline {
         stage("code"){
             steps{
                 git url: "https://github.com/Mohammad-Ameen-Faqueer-Mohammad/Jenkins.git", branch: "master"
-                echo 'Ameennnnnnn bhai code clone ho gaya'
+                echo 'Amin bhai code clone ho gaya'
             }
         }
         stage("build and test"){
